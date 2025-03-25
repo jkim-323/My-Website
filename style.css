@@ -1,1 +1,25 @@
+*
+{
+    background-color: blueviolet;
+}
 
+.container {
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* MEDIA QUERY */
+@media (min-width: 500px) {
+
+    .container {
+        background-color: red;
+        width: 100vw;
+        height: 100vh;
+    }
+
+}
+
+img {
+    width: 100%;
+}
